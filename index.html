@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Search Git Users</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="search">
+				<input class="search__field" id="searchField" placeholder="Search Github Users" type="search">
+				<button id="searchBtn" class="search__btn">
+					<img class="search__btn--icon" src="assets/magnifying-glass.png" />
+				</button>
+			</div>
+		</div>
+
+	 	<div class="pagination">
+			<div id="pagination"></div>
+		</div> 
+
+		<div class="content">
+
+			<div class="user_cards" id="userCards">
+			</div>
+
+			<div class='user_repos' id='userRepos'>
+			</div>
+		</div>
+	</body>
+
+	<script src="app.js"></script>
+</html>
